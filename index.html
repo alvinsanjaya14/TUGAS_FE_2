@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcelona Foundation - Top Best Foundation Asuransi Terpercaya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo nav-link" data-page="home">
+                <img src="./img/logo.png" alt="Logo Barcelona Foundation" style="height: 40px; margin-right: 5px; margin-bottom: -10px;">
+                Barcelona Foundation
+            </a>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link" data-page="home">Beranda</a></li>
+                <li><a href="#" class="nav-link" data-page="products">Produk</a></li>
+                <li><a href="#" class="nav-link" data-page="about">Tentang</a></li>
+                <li><a href="#" class="nav-link" data-page="contact">Kontak</a></li>
+            </ul>
+            <div class="auth-buttons" id="authButtons">
+                <a href="#" class="btn btn-secondary nav-link" data-page="login">Masuk</a>
+                <a href="#" class="btn btn-primary nav-link" data-page="signup">Daftar</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="page active">
+            <section class="hero">
+                <div class="container">
+                    <h1>Lindungi Masa Depan Anda</h1>
+                    <p>Marketplace asuransi terpercaya dengan berbagai pilihan produk dari perusahaan asuransi terbaik
+                    </p>
+                    <a href="#" class="btn btn-primary nav-link" data-page="products">Jelajahi Produk</a>
+                </div>
+            </section>
+
+            <section class="container">
+                <h2 style="text-align: center; margin: 3rem 0 2rem;">Produk Asuransi Kami</h2>
+                <div class="products-grid">
+                    <div class="product-card" data-product="kesehatan">
+                        <div class="product-icon"><i class="fas fa-heartbeat"></i></div>
+                        <h3>Asuransi Kesehatan</h3>
+                        <p>Perlindungan kesehatan komprehensif untuk Anda dan keluarga</p>
+                        <ul class="product-features">
+                            <li>Rawat inap dan rawat jalan</li>
+                            <li>Cashless di rumah sakit rekanan</li>
+                            <li>Manfaat persalinan</li>
+                            <li>Obat-obatan dan vitamin</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                    <div class="product-card" data-product="mobil">
+                        <div class="product-icon"><i class="fas fa-car"></i></div>
+                        <h3>Asuransi Mobil</h3>
+                        <p>Perlindungan menyeluruh untuk kendaraan Anda</p>
+                        <ul class="product-features">
+                            <li>Total Loss Only (TLO)</li>
+                            <li>All Risk (Comprehensive)</li>
+                            <li>Bengkel rekanan resmi</li>
+                            <li>Derek gratis 24 jam</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                    <div class="product-card" data-product="jiwa">
+                        <div class="product-icon"><i class="fas fa-user-shield"></i></div>
+                        <h3>Asuransi Jiwa</h3>
+                        <p>Perlindungan finansial untuk masa depan keluarga</p>
+                        <ul class="product-features">
+                            <li>Santunan meninggal dunia</li>
+                            <li>Santunan cacat tetap</li>
+                            <li>Premi terjangkau</li>
+                            <li>Proses klaim mudah</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="login" class="page">
+            <div class="form-container">
+                <h2 style="text-align: center; margin-bottom: 2rem;">Masuk ke Akun</h2>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="loginEmail">Email</label>
+                        <input type="email" id="loginEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Kata Sandi</label>
+                        <input type="password" id="loginPassword" name="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Masuk</button>
+                    <p class="form-group" style="text-align: center;">Belum punya akun? <a href="#" class="nav-link"
+                            data-page="signup" style="color: #4f46e5;">Daftar di sini</a></p>
+                </form>
+            </div>
+        </div>
+
+        <div id="signup" class="page">
+            <div class="form-container">
+                <h2 style="text-align: center; margin-bottom: 2rem;">Daftar Akun Baru</h2>
+                <form id="signupForm">
+                    <div class="form-group">
+                        <label for="signupEmail">Email</label>
+                        <input type="email" id="signupEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signupPassword">Kata Sandi</label>
+                        <input type="password" id="signupPassword" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Konfirmasi Kata Sandi</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="fullName">Nama Lengkap</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Nomor Handphone</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Daftar</button>
+                    <p class="form-group" style="text-align: center;">Sudah punya akun? <a href="#" class="nav-link"
+                            data-page="login" style="color: #4f46e5;">Masuk di sini</a></p>
+                </form>
+            </div>
+        </div>
+
+        <div id="product-kesehatan" class="page">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 2rem;">Asuransi Kesehatan Premium</h2>
+                <div class="product-card" style="max-width: 800px; margin: 0 auto;">
+                    <div class="product-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h3>HealthCare Plus</h3>
+                    <p>Perlindungan kesehatan menyeluruh dengan fasilitas terbaik untuk Anda dan keluarga.</p>
+                    <h4 style="margin: 2rem 0 1rem;">Manfaat Utama:</h4>
+                    <ul class="product-features">
+                        <li>Rawat inap kamar VIP hingga Rp 1.000.000/hari</li>
+                        <li>Cashless di 1000+ rumah sakit</li>
+                        <li>Manfaat persalinan hingga Rp 20.000.000</li>
+                    </ul>
+                    <button class="btn btn-primary nav-link" data-page="purchase-kesehatan" style="width: 100%;">Beli
+                        Sekarang</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-mobil" class="page">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 2rem;">Asuransi Mobil Komprehensif</h2>
+                <div class="product-card" style="max-width: 800px; margin: 0 auto;">
+                    <div class="product-icon"><i class="fas fa-car"></i></div>
+                    <h3>AutoGuard Pro</h3>
+                    <p>Perlindungan menyeluruh untuk kendaraan kesayangan Anda dari kerusakan hingga total loss.</p>
+                    <h4 style="margin: 2rem 0 1rem;">Manfaat Utama:</h4>
+                    <ul class="product-features">
+                        <li>All Risk - perlindungan menyeluruh</li>
+                        <li>Derek gratis 24/7</li>
+                        <li>Mobil pengganti selama perbaikan</li>
+                    </ul>
+                    <button class="btn btn-primary nav-link" data-page="purchase-mobil" style="width: 100%;">Beli
+                        Sekarang</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-jiwa" class="page">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 2rem;">Asuransi Jiwa Keluarga</h2>
+                <div class="product-card" style="max-width: 800px; margin: 0 auto;">
+                    <div class="product-icon"><i class="fas fa-user-shield"></i></div>
+                    <h3>LifeProtect Family</h3>
+                    <p>Jaminan finansial terbaik untuk masa depan keluarga tercinta.</p>
+                    <h4 style="margin: 2rem 0 1rem;">Manfaat Utama:</h4>
+                    <ul class="product-features">
+                        <li>Santunan meninggal dunia hingga Rp 10 miliar</li>
+                        <li>Bebas premi jika cacat tetap</li>
+                        <li>Proses klaim cepat dan mudah</li>
+                    </ul>
+                    <button class="btn btn-primary nav-link" data-page="purchase-jiwa" style="width: 100%;">Beli
+                        Sekarang</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="purchase-mobil" class="page">
+            <div class="purchase-form">
+                <h2 style="text-align: center; margin-bottom: 2rem;">Pembelian Asuransi Mobil</h2>
+                <form id="carInsuranceForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="carBrand">Merk Mobil</label>
+                            <select id="carBrand" required>
+                                <option value="">Pilih</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Honda">Honda</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="carType">Jenis Mobil</label>
+                            <input type="text" id="carType" required placeholder="Avanza G">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="carYear">Tahun</label>
+                            <input type="number" id="carYear" required min="1990" max="2025">
+                        </div>
+                        <div class="form-group">
+                            <label for="carPrice">Harga (Rp)</label>
+                            <input type="number" id="carPrice" required min="0">
+                        </div>
+                    </div>
+                    <div class="premium-display" id="carPremiumDisplay" style="display: none;">
+                        <h3>Premi Asuransi Mobil</h3>
+                        <div class="premium-amount" id="carPremiumAmount"></div>
+                        <p>per tahun</p>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-secondary" id="calculateCarPremiumBtn">Hitung
+                            Premi</button>
+                        <button type="submit" class="btn btn-primary" id="carCheckoutBtn"
+                            style="display: none;">Checkout</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="purchase-kesehatan" class="page">
+            <div class="purchase-form">
+                <h2 style="text-align: center; margin-bottom: 2rem;">Pembelian Asuransi Kesehatan</h2>
+                <form id="healthInsuranceForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="healthFullName">Nama Lengkap</label>
+                            <input type="text" id="healthFullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="birthDate">Tanggal Lahir</label>
+                            <input type="date" id="birthDate" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="smoking">Merokok?</label>
+                            <select id="smoking" required>
+                                <option value="">Pilih</option>
+                                <option value="1">Ya</option>
+                                <option value="0">Tidak</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="diabetes">Diabetes?</label>
+                            <select id="diabetes" required>
+                                <option value="">Pilih</option>
+                                <option value="1">Ya</option>
+                                <option value="0">Tidak</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="premium-display" id="healthPremiumDisplay" style="display: none;">
+                        <h3>Premi Asuransi Kesehatan</h3>
+                        <div class="premium-amount" id="healthPremiumAmount"></div>
+                        <p>per tahun</p>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-secondary" id="calculateHealthPremiumBtn">Hitung
+                            Premi</button>
+                        <button type="submit" class="btn btn-primary" id="healthCheckoutBtn"
+                            style="display: none;">Checkout</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="purchase-jiwa" class="page">
+            <div class="purchase-form">
+                <h2 style="text-align: center; margin-bottom: 2rem;">Pembelian Asuransi Jiwa</h2>
+                <form id="lifeInsuranceForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="lifeFullName">Nama Lengkap</label>
+                            <input type="text" id="lifeFullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lifeBirthDate">Tanggal Lahir</label>
+                            <input type="date" id="lifeBirthDate" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="coverage">Besaran Pertanggungan</label>
+                        <select id="coverage" required>
+                            <option value="">Pilih</option>
+                            <option value="1000000000">Rp 1.000.000.000</option>
+                            <option value="2000000000">Rp 2.000.000.000</option>
+                            <option value="5000000000">Rp 5.000.000.000</option>
+                        </select>
+                    </div>
+                    <div class="premium-display" id="lifePremiumDisplay" style="display: none;">
+                        <h3>Premi Asuransi Jiwa</h3>
+                        <div class="premium-amount" id="lifePremiumAmount"></div>
+                        <p>per tahun</p>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-secondary" id="calculateLifePremiumBtn">Hitung
+                            Premi</button>
+                        <button type="submit" class="btn btn-primary" id="lifeCheckoutBtn"
+                            style="display: none;">Checkout</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
