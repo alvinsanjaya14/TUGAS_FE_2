@@ -13,18 +13,19 @@
     <header>
         <nav>
             <a href="#" class="logo nav-link" data-page="home">
-                <img src="./img/logo.png" alt="Logo Barcelona Foundation" style="height: 40px; margin-right: 5px; margin-bottom: -10px;">
+                <img src="./img/logo.png" alt="Logo Barcelona Foundation"
+                    style="height: 40px; margin-right: 5px; margin-bottom: -10px;">
                 Barcelona Foundation
             </a>
             <ul class="nav-links">
-                <li><a href="#" class="nav-link" data-page="home">Beranda</a></li>
-                <li><a href="./products.html" class="nav-link" data-page="products">Produk</a></li>
-                <li><a href="#" class="nav-link" data-page="about">Tentang</a></li>
-                <li><a href="#" class="nav-link" data-page="contact">Kontak</a></li>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="products.html">Produk</a></li>
+                <li><a href="about.html">Tentang</a></li>
+                <li><a href="contact.html">Kontak</a></li>
             </ul>
-            <div class="auth-buttons" id="authButtons">
-                <a href="#" class="btn btn-secondary nav-link" data-page="login">Masuk</a>
-                <a href="#" class="btn btn-primary nav-link" data-page="signup">Daftar</a>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn btn-secondary">Masuk</a>
+                <a href="signup.html" class="btn btn-primary">Daftar</a>
             </div>
         </nav>
     </header>
@@ -36,7 +37,7 @@
                     <h1>Lindungi Masa Depan Anda</h1>
                     <p>Marketplace asuransi terpercaya dengan berbagai pilihan produk dari perusahaan asuransi terbaik
                     </p>
-                    <a href="#" class="btn btn-primary nav-link" data-page="products">Jelajahi Produk</a>
+                    <a href="products.html" class="btn btn-primary">Jelajahi Produk</a>
                 </div>
             </section>
 
@@ -81,56 +82,6 @@
                     </div>
                 </div>
             </section>
-        </div>
-
-        <div id="login" class="page">
-            <div class="form-container">
-                <h2 style="text-align: center; margin-bottom: 2rem;">Masuk ke Akun</h2>
-                <form id="loginForm">
-                    <div class="form-group">
-                        <label for="loginEmail">Email</label>
-                        <input type="email" id="loginEmail" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="loginPassword">Kata Sandi</label>
-                        <input type="password" id="loginPassword" name="password" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary" style="width: 100%;">Masuk</button>
-                    <p class="form-group" style="text-align: center;">Belum punya akun? <a href="#" class="nav-link"
-                            data-page="signup" style="color: #4f46e5;">Daftar di sini</a></p>
-                </form>
-            </div>
-        </div>
-
-        <div id="signup" class="page">
-            <div class="form-container">
-                <h2 style="text-align: center; margin-bottom: 2rem;">Daftar Akun Baru</h2>
-                <form id="signupForm">
-                    <div class="form-group">
-                        <label for="signupEmail">Email</label>
-                        <input type="email" id="signupEmail" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="signupPassword">Kata Sandi</label>
-                        <input type="password" id="signupPassword" name="password" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="confirmPassword">Konfirmasi Kata Sandi</label>
-                        <input type="password" id="confirmPassword" name="confirmPassword" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="fullName">Nama Lengkap</label>
-                        <input type="text" id="fullName" name="fullName" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phoneNumber">Nomor Handphone</label>
-                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
-                    </div>
-                    <button type="submit" class="btn btn-primary" style="width: 100%;">Daftar</button>
-                    <p class="form-group" style="text-align: center;">Sudah punya akun? <a href="#" class="nav-link"
-                            data-page="login" style="color: #4f46e5;">Masuk di sini</a></p>
-                </form>
-            </div>
         </div>
 
         <div id="product-kesehatan" class="page">
